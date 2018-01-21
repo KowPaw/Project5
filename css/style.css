@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext");
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif; }
+
+/* -- extend class -- */
+.green-btn, header .jumbotron .btn, #photoapp .row .btn, #design .row .btn, #download .store div .btn {
+  background: #16a085;
+  border: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-radius: 2px; }
+
+header {
+  background: url(../images/hero.jpg);
+  background-size: cover;
+  color: white; }
+  header .navbar-default {
+    padding-top: 40px;
+    background: none;
+    border: none; }
+    header .navbar-default .navbar-nav {
+      float: none; }
+      header .navbar-default .navbar-nav > li {
+        float: none;
+        display: inline-block;
+        margin: 0 50px; }
+        header .navbar-default .navbar-nav > li > a {
+          color: white;
+          font-size: 16px; }
+          header .navbar-default .navbar-nav > li > a:hover {
+            color: #3498db; }
+  header .jumbotron {
+    background: none;
+    padding-top: 300px; }
+    header .jumbotron .btn {
+      margin-top: 15px; }
+  header .row {
+    margin-top: 250px;
+    font-size: 24px; }
+    header .row i {
+      margin: 0 5px;
+      color: white; }
+
+#photoapp {
+  background: #f5f6f7; }
+  #photoapp .row {
+    padding-top: 80px;
+    letter-spacing: 2px; }
+    #photoapp .row h4 {
+      color: #16a085; }
+    #photoapp .row p {
+      margin: 40px 0 35px; }
+    #photoapp .row img {
+      width: 100%; }
+
+#design .row {
+  padding-top: 100px;
+  letter-spacing: 2px; }
+  #design .row img {
+    height: 100%; }
+  #design .row h4 {
+    color: #16a085;
+    margin-bottom: 40px; }
+  #design .row p {
+    margin: 0; }
+  #design .row .btn {
+    margin: 35px 0; }
+  #design .row .col-lg-4 > a {
+    color: black;
+    margin-right: 10px; }
+
+#community {
+  background: #f5f6f7; }
+  #community .row:first-of-type {
+    padding-top: 80px; }
+    #community .row:first-of-type .col-lg-1 {
+      padding-right: 0; }
+      #community .row:first-of-type .col-lg-1 a {
+        color: black;
+        margin-left: 10px; }
+  #community .col-lg-2 {
+    margin-top: 60px;
+    padding: 0; }
+  #community .col-lg-4 {
+    padding-left: 30px;
+    padding-right: 0; }
+    #community .col-lg-4 img {
+      width: 100%;
+      margin: 5px 0 100px; }
+
+#subscribe .jumbotron {
+  background: url(../images/h-2.jpg);
+  background-size: cover;
+  color: white;
+  margin: 0; }
+  #subscribe .jumbotron h3 {
+    letter-spacing: 2px;
+    margin-top: 300px; }
+  #subscribe .jumbotron .input-group {
+    width: 25%;
+    margin: 30px auto 300px; }
+    #subscribe .jumbotron .input-group .form-control {
+      color: black;
+      letter-spacing: 2px;
+      border: none; }
+    #subscribe .jumbotron .input-group span {
+      background: #16a085;
+      padding: 0;
+      border: none; }
+      #subscribe .jumbotron .input-group span i {
+        color: white;
+        margin: 0 10px;
+        font-size: 20px; }
+
+#download {
+  background: #f5f6f7;
+  letter-spacing: 2px; }
+  #download h4 {
+    margin-top: 100px; }
+  #download .row > p {
+    text-transform: uppercase;
+    padding: 0 100px; }
+  #download .store div {
+    display: inline-block;
+    margin: 30px 15px 130px;
+    text-align: left;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    background: #1abc9c;
+    color: white; }
+    #download .store div b {
+      margin: 0 50px 0 20px; }
+    #download .store div .btn {
+      font-size: 16px;
+      text-align: right;
+      padding: 0; }
+      #download .store div .btn i {
+        font-size: 24px;
+        margin: 10px; }
+
+footer .row {
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  footer .row p {
+    margin-bottom: 15px; }
+    footer .row p a {
+      color: black; }
+  footer .row b {
+    color: #3498db; }
+
+@media (max-width: 1024px) {
+  header .navbar-default .navbar-nav > li {
+    margin: 0 20px; }
+
+  #photoapp .btn {
+    margin-bottom: 20px; }
+
+  #community .col-md-2 {
+    margin-top: 20px; } }
+@media (max-width: 768px) {
+  #community .row:first-of-type {
+    text-align: center; }
+  #community .col-sm-4 {
+    padding: 0; }
+    #community .col-sm-4 img {
+      margin: 0;
+      padding: 10px; }
+
+  #subscribe input {
+    min-width: 150px; }
+
+  #download .store div {
+    margin-bottom: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
