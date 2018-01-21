@@ -27,7 +27,7 @@ header {
 			> li {
 				float: none;
 				display: inline-block;
-				margin: 0 50px;
+				margin: 0 45px;
 				> a {
 					color: white;
 					font-size: 16px;
@@ -209,7 +209,7 @@ footer .row {
 
 @media (max-width: 1024px) {
 	header .navbar-default .navbar-nav > li {
-		margin: 0 15px;
+		margin: 0 20px;
 	}
 	#photoapp .btn {
 		margin-bottom: 20px;
