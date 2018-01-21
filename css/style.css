@@ -161,6 +161,11 @@ footer .row {
   #community .col-md-2 {
     margin-top: 20px; } }
 @media (max-width: 768px) {
+  header .navbar {
+    padding: 0; }
+    header .navbar .navbar-nav > li {
+      display: block; }
+
   #community .row:first-of-type {
     text-align: center; }
   #community .col-sm-4 {

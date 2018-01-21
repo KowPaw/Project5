@@ -220,6 +220,12 @@ footer .row {
 }
 
 @media (max-width: 768px) {
+	header .navbar {
+		padding: 0;
+		.navbar-nav > li {
+			display: block;
+		}
+	}
 	#community {
 		.row:first-of-type {
 			text-align: center;
